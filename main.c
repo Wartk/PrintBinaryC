@@ -32,7 +32,7 @@ void printBinary(uint64_t binary, uint8_t bits, uint8_t breakapart){
          }
      }
          
-        printf("%c", (binary & maxbit) ? '1' :        '0');
+        printf("%c", (binary & maxbit) ? '1' : '0');
        
        maxbit /= 2;
    }
